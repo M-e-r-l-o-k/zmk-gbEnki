@@ -103,17 +103,17 @@
 
         rus_letter_1 {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <11 7>;
+            key-positions = <7 10>;
         };
 
         rus_letter_2 {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <19 23>;
+            key-positions = <19 22>;
         };
 
         rus_letter_3 {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <35 31>;
+            key-positions = <31 34>;
         };
     };
 
@@ -134,16 +134,16 @@
 &none  &kp ESCAPE    &mkp RCLK       &mmv MOVE_UP          &mkp LCLK             &msc SCRL_DOWN    &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP      &kp END     &kp LEFT_BRACKET   &none
 &none  &mkp MCLK     &mmv MOVE_LEFT  &mmv MOVE_DOWN        &mmv MOVE_RIGHT       &msc SCRL_UP      &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT   &kp SINGLE_QUOTE   &none
 &none  &kp CAPSLOCK  &kp LC(LS(N1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp CAPSLOCK      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp INSERT  &kp RIGHT_BRACKET  &none
-                                     &none                 &trans                &trans            &mkp LCLK        &mkp MCLK        &mkp RCLK
+                                     &none                 &none                 &trans            &mkp LCLK        &mkp MCLK        &mkp RCLK
             >;
         };
 
         sym {
             bindings = <
-&kp LWIN   &kp C_VOL_UP  &kp PG_UP  &kp C_PP       &kp HOME  &kp C_PAUSE    &kp N0     &kp HOME  &kp C_PP  &kp PG_UP  &kp C_VOL_UP  &kp RWIN
-&kp LCTRL  &kp C_VOL_DN  &kp LEFT   &kp UP         &kp DOWN  &kp RIGHT      &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp C_VOL_DN  &kp RALT
-&kp LALT   &kp C_MUTE    &kp PG_DN  &kp LG(LS(S))  &kp END   &kp C_PLAY     &kp N0     &kp END   &kp UP   &kp PG_DN  &kp C_MUTE    &kp RALT
-                                    &trans         &trans    &lt 4 RET      &lt 4 ESC  &trans    &trans
+&none  &kp C_VOL_UP  &kp PG_UP  &kp C_PP       &kp HOME  &kp C_PAUSE    &kp N0    &kp HOME       &kp C_PP  &kp PG_UP  &kp C_VOL_UP  &none
+&none  &kp C_VOL_DN  &kp LEFT   &kp UP         &kp DOWN  &kp RIGHT      &kp LEFT  &kp DOWN       &kp UP    &kp RIGHT  &kp C_VOL_DN  &none
+&none  &kp C_MUTE    &kp PG_DN  &kp LG(LS(S))  &kp END   &kp C_PLAY     &kp N0    &kp END        &grtsgn   &kp PG_DN  &kp C_MUTE    &none
+                                &none          &trans    &none          &trans    &kp BACKSPACE  &none
             >;
         };
 
@@ -162,6 +162,15 @@
 &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none         &none         &none         &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &ext_power EP_OFF  &kp KP_NUM    &none         &none         &none  &check_bat    &check_bat    &none         &none         &none         &none         &ext_power EP_OFF
                                                &trans        &none  &trans        &trans        &none         &trans
+            >;
+        };
+
+        nav_spec {
+            bindings = <
+&none  &kp ESCAPE       &kp KP_NUMBER_5  &kp KP_NUMBER_7       &kp KP_NUMBER_4       &kp KP_PLUS     &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP      &kp END     &kp LEFT_BRACKET   &none
+&none  &kp KP_NUMBER_6  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMBER_0       &kp KP_MINUS    &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT   &kp SINGLE_QUOTE   &none
+&none  &kp CAPSLOCK     &kp LC(LS(N1))   &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp CAPSLOCK    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp INSERT  &kp RIGHT_BRACKET  &none
+                                         &none                 &none                 &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_6  &kp KP_NUMBER_5
             >;
         };
     };
