@@ -139,10 +139,10 @@
 
         sym {
             bindings = <
-&none  &kp C_VOL_UP  &kp PG_UP  &kp C_PP       &kp HOME  &kp C_PAUSE    &kp N0    &kp HOME       &kp C_PP  &kp PG_UP  &kp C_VOL_UP  &none
-&none  &kp C_VOL_DN  &kp LEFT   &kp UP         &kp DOWN  &kp RIGHT      &kp LEFT  &kp DOWN       &kp UP    &kp RIGHT  &kp C_VOL_DN  &none
-&none  &kp C_MUTE    &kp PG_DN  &kp LG(LS(S))  &kp END   &kp C_PLAY     &kp N0    &kp END        &none     &kp PG_DN  &kp C_MUTE    &none
-                                &none          &trans    &none          &trans    &kp BACKSPACE  &none
+&none  &kp NUMBER_4  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_1   &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_0    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_7     &none
+&none  &kp CARET     &kp TILDE     &kp DOUBLE_QUOTES  &kp COLON      &kp AMPERSAND    &kp PLUS      &kp MINUS       &kp ASTERISK  &kp AT_SIGN   &kp EXCLAMATION  &none
+&none  &kp CAPSLOCK  &kp GRAVE     &kp SINGLE_QUOTE   &kp SEMICOLON  &kp DOLLAR       &kp EQUAL     &kp UNDERSCORE  &kp HASH      &kp PERCENT   &kp QUESTION     &none
+                                   &kp BACKSPACE      &kp COMMA      &kp PERIOD       &trans        &none           &none
             >;
         };
 
