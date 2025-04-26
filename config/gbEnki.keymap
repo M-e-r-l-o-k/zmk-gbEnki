@@ -9,7 +9,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -158,10 +157,10 @@
 
         bt {
             bindings = <
-&bootloader        &none         &none         &none         &none  &none         &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &none         &none         &bootloader
-&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none         &none         &none         &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&ext_power EP_OFF  &kp KP_NUM    &none         &none         &none  &check_bat    &check_bat    &none         &none         &none         &none         &ext_power EP_OFF
-                                               &trans        &none  &trans        &trans        &none         &trans
+&none  &bootloader   &none         &none         &none         &none         &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &none         &bootloader   &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR    &bt BT_CLR    &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&none  &none         &none         &none         &none         &check_bat    &kp NUMBER_1  &none         &none         &none         &none         &none
+                                   &none         &none         &none         &none         &none         &none
             >;
         };
 
