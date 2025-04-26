@@ -141,7 +141,7 @@
             bindings = <
 &none  &kp C_VOL_UP  &kp PG_UP  &kp C_PP       &kp HOME  &kp C_PAUSE    &kp N0    &kp HOME       &kp C_PP  &kp PG_UP  &kp C_VOL_UP  &none
 &none  &kp C_VOL_DN  &kp LEFT   &kp UP         &kp DOWN  &kp RIGHT      &kp LEFT  &kp DOWN       &kp UP    &kp RIGHT  &kp C_VOL_DN  &none
-&none  &kp C_MUTE    &kp PG_DN  &kp LG(LS(S))  &kp END   &kp C_PLAY     &kp N0    &kp END        &grtsgn   &kp PG_DN  &kp C_MUTE    &none
+&none  &kp C_MUTE    &kp PG_DN  &kp LG(LS(S))  &kp END   &kp C_PLAY     &kp N0    &kp END        &none     &kp PG_DN  &kp C_MUTE    &none
                                 &none          &trans    &none          &trans    &kp BACKSPACE  &none
             >;
         };
