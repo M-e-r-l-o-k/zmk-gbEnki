@@ -185,9 +185,9 @@
 
         sym_spec {
             bindings = <
-&none  &kp NUMBER_4     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_1         &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_0    &kp NUMBER_8         &kp NUMBER_9         &kp NUMBER_7             &none
-&none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &kp KP_NUMBER_4        &kp PLUS      &kp MINUS       &kp ASTERISK         &kp LC(KP_NUMBER_3)  &kp LC(KP_NUMBER_4)      &none
-&none  &kp CAPSLOCK     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7      &kp KP_NUMBER_8        &kp EQUAL     &kp UNDERSCORE  &kp LC(KP_NUMBER_2)  &kp PERCENT          &kp LC(LG(KP_NUMBER_5))  &none
+&none  &kp NUMBER_4     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_1         &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_0    &kp NUMBER_8         &kp NUMBER_9         &kp NUMBER_7         &none
+&none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &kp KP_NUMBER_4        &kp PLUS      &kp MINUS       &kp ASTERISK         &kp LC(KP_NUMBER_3)  &kp LC(KP_NUMBER_4)  &none
+&none  &kp CAPSLOCK     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7      &kp KP_NUMBER_8        &kp EQUAL     &kp UNDERSCORE  &kp LC(KP_NUMBER_2)  &kp PERCENT          &kp LC(KP_NUMBER_5)  &none
                                          &kp BACKSPACE    &kp LC(KP_NUMBER_0)  &kp LC(KP_NUMBER_1)    &trans        &none           &none
             >;
         };
