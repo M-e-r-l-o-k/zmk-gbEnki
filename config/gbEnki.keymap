@@ -31,42 +31,42 @@
         compatible = "zmk,combos";
 
         a1 {
-            bindings = <&kp LS(KP_NUMBER_0)>;
+            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
         };
 
         a2 {
-            bindings = <&kp LS(KP_NUMBER_1)>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
         };
 
         b1 {
-            bindings = <&kp LS(KP_NUMBER_2)>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <14 15>;
         };
 
         b2 {
-            bindings = <&kp LS(KP_NUMBER_3)>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <20 21>;
         };
 
         c1 {
-            bindings = <&kp LS(KP_NUMBER_4)>;
+            bindings = <&kp LEFT_BRACE>;
             key-positions = <28 27>;
         };
 
         c2 {
-            bindings = <&kp LS(KP_NUMBER_5)>;
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <31 32>;
         };
 
         d1 {
-            bindings = <&kp LS(KP_NUMBER_8)>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <17 16>;
         };
 
         d2 {
-            bindings = <&kp LS(KP_NUMBER_9)>;
+            bindings = <&kp PIPE>;
             key-positions = <18 19>;
         };
 
@@ -81,12 +81,12 @@
         };
 
         e1 {
-            bindings = <&kp LS(KP_NUMBER_6)>;
+            bindings = <&kp LESS_THAN>;
             key-positions = <27 26>;
         };
 
         e2 {
-            bindings = <&kp LS(KP_NUMBER_7)>;
+            bindings = <&kp GREATER_THAN>;
             key-positions = <32 33>;
         };
 
@@ -134,7 +134,7 @@
 &none  &kp Q           &kp W           &kp E                &kp R               &kp T          &kp Y        &kp U                &kp I              &kp O            &kp P                    &none
 &none  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D     &mt LEFT_CONTROL F  &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none
 &none  &kp Z           &kp X           &kp C                &kp V               &kp B          &kp N        &kp M                &kp COMMA          &kp DOT          &kp SLASH                &none
-                                       &mt LEFT_GUI ESCAPE  &mt LEFT_ALT TAB    &lt 5 SPACE    &lt 6 ENTER  &kp BACKSPACE        &lt 3 DEL
+                                       &mt LEFT_GUI ESCAPE  &mt LEFT_ALT TAB    &lt 1 SPACE    &lt 2 ENTER  &kp BACKSPACE        &lt 3 DEL
             >;
         };
 
