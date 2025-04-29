@@ -177,18 +177,18 @@
         nav_spec {
             bindings = <
 &none  &kp ESCAPE  &kp F17         &kp F21               &kp F18               &kp F20         &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP       &kp END     &kp LEFT_BRACKET   &none
-&none  &kp F16     &kp F22         &kp F23               &kp F24               &kp F19         &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW      &kp RIGHT   &kp SINGLE_QUOTE   &none
-&none  &kp F15     &kp LC(LS(N1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp CAPSLOCK    &kp LC(LG(A))   &kp LC(LA(SPACE))  &kp LC(UP_ARROW)  &kp INSERT  &kp RIGHT_BRACKET  &none
+&none  &kp F15     &kp F22         &kp F23               &kp F24               &kp F19         &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW      &kp RIGHT   &kp SINGLE_QUOTE   &none
+&none  &kp F14     &kp LC(LS(N1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp CAPSLOCK    &kp LC(LG(A))   &kp LC(LA(SPACE))  &kp LC(UP_ARROW)  &kp INSERT  &kp RIGHT_BRACKET  &none
                                    &none                 &none                 &trans          &kp F18         &kp F16            &kp F17
             >;
         };
 
         sym_spec {
             bindings = <
-&none  &kp NUMBER_4     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_1         &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_0    &kp NUMBER_8         &kp NUMBER_9         &kp NUMBER_7         &none
-&none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &kp KP_NUMBER_4        &kp PLUS      &kp MINUS       &kp ASTERISK         &kp LC(KP_NUMBER_3)  &kp LC(KP_NUMBER_4)  &none
-&none  &kp CAPSLOCK     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7      &kp KP_NUMBER_8        &kp EQUAL     &kp UNDERSCORE  &kp LC(KP_NUMBER_2)  &kp PERCENT          &kp LC(KP_NUMBER_5)  &none
-                                         &kp BACKSPACE    &kp LC(KP_NUMBER_0)  &kp LC(KP_NUMBER_1)    &trans        &none           &none
+&none  &kp NUMBER_4     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_1     &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_0    &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_7     &none
+&none  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &kp PLUS      &kp MINUS       &kp ASTERISK  &kp LS(KP_MINUS)  &kp LS(KP_PLUS)  &none
+&none  &kp CAPSLOCK     &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8    &kp EQUAL     &kp UNDERSCORE  &kp KP_DOT    &kp PERCENT       &kp LS(KP_DOT)   &none
+                                         &kp BACKSPACE    &kp KP_MINUS     &kp KP_PLUS        &trans        &none           &none
             >;
         };
     };
