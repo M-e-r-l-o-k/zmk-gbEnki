@@ -3,3 +3,4 @@ This branch for keyboard with LEDs. For keyboard without LEDs use [another branc
 
 -----
 
+![image](https://github.com/user-attachments/assets/b3d0c348-a9aa-4ca6-b223-e81d996081b9)
