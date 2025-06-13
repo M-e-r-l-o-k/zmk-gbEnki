@@ -31,42 +31,42 @@
         compatible = "zmk,combos";
 
         a1 {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp LS(KP_NUMBER_0)>;
             key-positions = <16 15>;
         };
 
         a2 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp LS(KP_NUMBER_1)>;
             key-positions = <19 20>;
         };
 
         b1 {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LS(KP_NUMBER_2)>;
             key-positions = <14 15>;
         };
 
         b2 {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp LS(KP_NUMBER_3)>;
             key-positions = <20 21>;
         };
 
         c1 {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LS(KP_NUMBER_4)>;
             key-positions = <28 27>;
         };
 
         c2 {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp LS(KP_NUMBER_5)>;
             key-positions = <31 32>;
         };
 
         d1 {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp LS(KP_NUMBER_8)>;
             key-positions = <17 16>;
         };
 
         d2 {
-            bindings = <&kp PIPE>;
+            bindings = <&kp LS(KP_NUMBER_9)>;
             key-positions = <18 19>;
         };
 
@@ -81,12 +81,12 @@
         };
 
         e1 {
-            bindings = <&kp LESS_THAN>;
+            bindings = <&kp LS(KP_NUMBER_6)>;
             key-positions = <27 26>;
         };
 
         e2 {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp LS(KP_NUMBER_7)>;
             key-positions = <32 33>;
         };
 
