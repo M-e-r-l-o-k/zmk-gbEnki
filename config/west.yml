@@ -1,13 +1,11 @@
 manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: sqdbruh
-      url-base: https://github.com/sqdbruh
+  remotes:    
+    - name: aroum
+      url-base: https://github.com/aroum
   projects:
     - name: zmk
-      remote: sqdbruh
-      revision: v0.3-branch
+      remote: aroum
+      revision: main
       import: app/west.yml
   self:
     path: config
